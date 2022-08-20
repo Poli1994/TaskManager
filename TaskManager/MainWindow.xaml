@@ -23,7 +23,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <ListBox x:Name="ProcessesList" Grid.RowSpan="4" Grid.ColumnSpan="3" Margin="10" SelectionChanged="ProcessesList_SelectionChanged">
+        <ListBox x:Name="ProcessesList" Grid.RowSpan="4" Grid.ColumnSpan="3" SelectionChanged="ProcessesList_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock>
@@ -35,6 +35,6 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <Button x:Name="EndTask" Content="Task Beenden" Grid.Row="5" Grid.Column="2" Click="EndTask_Click" HorizontalAlignment="Right" IsEnabled="False"/>
+        <Button x:Name="EndTask" Content="Task Beenden" Grid.Row="5" Grid.Column="2" Click="EndTask_Click" HorizontalAlignment="Right"/>
     </Grid>
 </Window>
